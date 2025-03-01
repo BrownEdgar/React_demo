@@ -1,0 +1,30 @@
+.App {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  flex-wrap: wrap;
+
+  button {
+    font-weight: 500;
+    border: 0;
+    border-radius: 4px;
+    font-size: 16px;
+    padding: 0.3rem 1rem;
+    cursor: pointer;
+    background-color: #2ecc71;
+    color: #ecf0f1;
+    transition: 0.3s;
+
+    &.active {
+      color: #1e272e;
+      transform: translateY(-6px);
+      background-color: #ffa801;
+
+    }
+  }
+}
