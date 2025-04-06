@@ -1,4 +1,4 @@
-import styles from './Child.module.css'
+import styles from "./Child.module.css";
 
 export default function Child({ elem }) {
   return (
@@ -8,5 +8,5 @@ export default function Child({ elem }) {
       <p>{elem.text}</p>
       <button>Read more</button>
     </div>
-  )
+  );
 }
